@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Find Element</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+
+    <hr>
+
+    <center>
+        <h3>Add & Find Elements in an Array</h3>
+
+    </center>
+    <hr>
+
+
+    <div id="submitform">
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-2">
+                    <label class="mlabl" for="name">Enter Element:</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="item" placeholder="Enter Element" name="name">
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <button id="web" type="button" class="btn btn-default inteButton3" onclick="sortArray()">Add Element</button>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-offset-4 col-sm-4 divelement">
+                Elements in array:<div><p id="arrayelements">
+                        
+                </p></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+                <p> </p>
+    
+            </div>
+            <div class="row">
+                    <p> </p>
+        
+                </div>
+                <div class="row">
+                        <p> </p>
+            
+                    </div>
+                
+
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-2">
+
+                    <label class="mlabl" for="url">Enter Position:</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="pos" placeholder="Enter Position" name="url">
+                </div>
+
+                <div class="col-sm-4">
+
+                    <button id="web" type="button" class="btn btn-default inteButton3" onclick="findElement()">Find Element</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-sm-offset-4 col-sm-4 divelement">
+                    Searched Element is:<div><p id="searchedElement"></p>
+                </div>
+    
+            </div>
+    
+            <div class="row">
+                    <p> </p>
+        
+                </div>
+        
+
+    </div>
+</body>
